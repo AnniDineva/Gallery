@@ -1,0 +1,56 @@
+.container {
+    padding: 5rem 0rem;
+}
+
+.img-wrapper-20 {
+    max-width: 17%;
+    margin: 0rem 1.5rem 0rem 0rem;
+}
+
+.img-wrapper-20 img:hover {
+    transform: scale(1.08);
+}
+
+.galp {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.img-dimension {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .img-wrapper-20 {
+        max-width: 80%;
+        margin: 0rem 1.5rem 0rem 0rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .d-flex {
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+}
+
+.singlePhoto {
+    width: 70%;
+    height: auto;
+}
+
+.card_width {
+    width: 100%;
+}
+
+.img-card {
+    height: 265px;
+}
