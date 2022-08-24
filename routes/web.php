@@ -49,11 +49,7 @@ Route::get('/contacts', [ContactsController::class, 'create'])
 Route::post('/contacts', [ContactsController::class, 'store'])
                 ->name('contacts_send_message');
 
-Route::middleware('guest')->group(function () {
 
-    
-   
-});
 
 
 Route::middleware('auth')->group(function () {
