@@ -27,11 +27,9 @@ class GalleryController extends Controller
 
     public function destroy(Request $request){
         $id=$request->id;
-        if (Auth::user()->is_admin==1){
+   
             $photo = Photo::find($id)->delete();
             
-        
-        }
         return redirect('/gallery');
     }
 
